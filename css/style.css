@@ -99,10 +99,6 @@ nav ul.link li {
   margin: 0 10px;
 }
 
-.baby-frog {
-  background-image: url("../img/wave.svg");
-}
-
 div#hero-box {
   flex: 1;
   display: flex;
