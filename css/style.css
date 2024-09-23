@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* # UTILS */
@@ -25,6 +26,23 @@
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
 /* HEADER */
 
 header {
@@ -34,14 +52,21 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
+  margin-bottom: 100px;
+  color: white;
+}
+
+.second-header {
+  text-align: center;
+  color: white;
 }
 
 nav.top-header {
   display: flex;
-  justify-content: center; /* Centra l'intero nav */
+  justify-content: center;
   align-items: center;
   height: 50px;
-  margin: 10px auto; /* Fa sì che il nav sia centrato orizzontalmente */
+  margin: 10px auto;
   width: 100%;
   max-width: 1000px;
 }
@@ -90,75 +115,68 @@ div#riquadro-viola .second-header {
 }
 
 .big-col {
-  width: 60%;
-  background-color: blue;
+  display: flex;
+  width: 50%;
+  margin-right: 250px;
 }
 
 .small-col {
-  width: 40%;
-  background-color: pink;
-}
-
-.bg-grigio {
-  background-color: grey;
-  height: 600px;
+  width: 50%;
 }
 
 main section {
   height: 500px;
-  margin: 20px;
+  margin-bottom: 200px;
 }
 
 div.riquadro-verde {
-  background-color: green;
   height: 550px;
   width: 100%;
   margin: 10px 0;
+  text-align: center;
+}
+
+.under-the-last-pic {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /* # FOOTER */
 
 footer {
-  padding: 10px;
-  background-color: dimgrey;
+  padding: 50px;
+  background-color: #23272a;
+  color: white;
+  text-align: top;
 }
 
 footer section.top-footer {
   height: 500px;
-  background-color: aquamarine;
+  margin-bottom: 20px;
 }
 
 footer section.top-footer aside {
   width: 30%;
   height: 100%;
-  background-color: darksalmon;
 }
 
 footer section.top-footer nav {
   width: 70%;
   height: 100%;
-  background-color: cadetblue;
 }
 
 footer .top-footer nav ul {
   width: 25%;
   height: 100%;
-  border: 2px dashed white;
-}
-
-footer hr {
-  margin: 2rem 0;
 }
 
 footer section.bottom-footer {
   height: 100px;
-  background-color: aquamarine;
   justify-content: space-between;
 }
 
 footer .footer-logo,
 footer .footer-bottone {
-  background-color: pink;
-  padding: 10px;
-  font-size: 20px;
+  padding: 20px;
+  font-size: 30px;
 }
