@@ -25,29 +25,30 @@
   margin: 0 auto;
 }
 
-.border {
-  border: 2px dashed black;
-}
-
 /* HEADER */
 
 header {
-  background-color: lightskyblue;
-  align-items: center;
   flex-direction: column;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 
 nav.top-header {
   display: flex;
+  justify-content: center; /* Centra l'intero nav */
+  align-items: center;
   height: 50px;
-  margin: 10px;
-  justify-content: space-between;
+  margin: 10px auto; /* Fa sì che il nav sia centrato orizzontalmente */
+  width: 100%;
+  max-width: 1000px;
 }
 
 nav div.logo,
 nav div.login {
   flex-basis: 30%;
-  background-color: gold;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -57,7 +58,6 @@ nav div.login {
 
 nav ul.link {
   flex-basis: 70%;
-  background-color: gold;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -71,15 +71,16 @@ nav ul.link li {
 }
 
 div#riquadro-viola {
-  background-color: darkblue;
-  height: 500px;
-  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 div#riquadro-viola .second-header {
   width: 40%;
   height: 400px;
-  background-color: violet;
 }
 
 /* MAIN */
