@@ -1,0 +1,163 @@
+/* # RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* # UTILS */
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.border {
+  border: 2px dashed black;
+}
+
+/* HEADER */
+
+header {
+  background-color: lightskyblue;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav.top-header {
+  display: flex;
+  height: 50px;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+nav div.logo,
+nav div.login {
+  flex-basis: 30%;
+  background-color: gold;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+nav ul.link {
+  flex-basis: 70%;
+  background-color: gold;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+nav ul.link li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+div#riquadro-viola {
+  background-color: darkblue;
+  height: 500px;
+  width: 100%;
+}
+
+div#riquadro-viola .second-header {
+  width: 40%;
+  height: 400px;
+  background-color: violet;
+}
+
+/* MAIN */
+
+.col {
+  height: 500px;
+}
+
+.big-col {
+  width: 60%;
+  background-color: blue;
+}
+
+.small-col {
+  width: 40%;
+  background-color: pink;
+}
+
+.bg-grigio {
+  background-color: grey;
+  height: 600px;
+}
+
+main section {
+  height: 500px;
+  margin: 20px;
+}
+
+div.riquadro-verde {
+  background-color: green;
+  height: 550px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* # FOOTER */
+
+footer {
+  padding: 10px;
+  background-color: dimgrey;
+}
+
+footer section.top-footer {
+  height: 500px;
+  background-color: aquamarine;
+}
+
+footer section.top-footer aside {
+  width: 30%;
+  height: 100%;
+  background-color: darksalmon;
+}
+
+footer section.top-footer nav {
+  width: 70%;
+  height: 100%;
+  background-color: cadetblue;
+}
+
+footer .top-footer nav ul {
+  width: 25%;
+  height: 100%;
+  border: 2px dashed white;
+}
+
+footer hr {
+  margin: 2rem 0;
+}
+
+footer section.bottom-footer {
+  height: 100px;
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+
+footer .footer-logo,
+footer .footer-bottone {
+  background-color: pink;
+  padding: 10px;
+  font-size: 20px;
+}
