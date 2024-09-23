@@ -150,7 +150,15 @@ footer {
   text-align: top;
 }
 
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 footer section.top-footer {
+  display: flex;
+  align-items: flex-start;
   height: 500px;
   margin-bottom: 20px;
 }
@@ -168,6 +176,8 @@ footer section.top-footer nav {
 footer .top-footer nav ul {
   width: 25%;
   height: 100%;
+  list-style-type: none;
+  line-height: 30px;
 }
 
 footer section.bottom-footer {
